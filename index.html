@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal CV website for Isaiah Jairo Martinez, an aspiring AI developer and BSIT student.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Isaiah Jairo Martinez | Aspiring AI Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Isaiah Jairo Martinez home">IJM<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section id="top" class="hero section container" aria-labelledby="intro-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Personal CV · Davao del Norte, Philippines</p>
+        <div class="intro-layout">
+          <img class="profile-photo" src="images/profile.jpg" alt="Professional portrait of Isaiah Jairo Martinez">
+          <div class="intro-text">
+            <h1 id="intro-title">Isaiah Jairo<br><em>Martinez</em></h1>
+            <p class="hero-role">Aspiring AI Developer</p>
+          </div>
+        </div>
+        <p class="hero-intro">Learning to turn thoughtful prompts, practical code, and emerging AI tools into useful solutions.</p>
+        <div class="hero-actions">
+          <button class="button button-dark" type="button" data-print>Download CV <span aria-hidden="true">↗</span></button>
+          <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="hero-note" aria-label="Profile summary">
+        <span class="line-mark" aria-hidden="true"></span>
+        <p>Currently a 4th Year BSIT Student at Davao del Norte State College, building a foundation in web, mobile, and AI-focused development.</p>
+      </div>
+    </section>
+
+    <section id="about" class="section container split-section" aria-labelledby="about-title">
+      <div class="section-label"><span>01</span><h2 id="about-title">About</h2></div>
+      <div class="section-content about-content">
+        <p class="lead">I am an aspiring AI developer with an interest in prompt engineering and the effective use of AI tools.</p>
+        <p>I am developing my technical skills while learning to write clear prompts, solve problems, and explore AI technologies. My goal is to use AI to create useful, efficient, and innovative solutions.</p>
+      </div>
+    </section>
+
+    <section id="education" class="section container split-section" aria-labelledby="education-title">
+      <div class="section-label"><span>02</span><h2 id="education-title">Education</h2></div>
+      <div class="section-content entry-grid">
+        <div>
+          <p class="entry-kicker">2023 — Present</p>
+          <h3>Davao del Norte State College <span>(DNSC)</span></h3>
+          <p>Bachelor of Science in Information Technology (BSIT)</p>
+        </div>
+        <div class="entry-aside"><strong>4th Year Student</strong><span>Expected graduation: June 2027</span></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section container split-section" aria-labelledby="skills-title">
+      <div class="section-label"><span>03</span><h2 id="skills-title">Skills</h2></div>
+      <div class="section-content skills-grid">
+        <div class="skill-group"><h3>AI</h3><ul><li>AI tools usage</li><li>AI prompt writing</li><li>ChatGPT and other AI tools</li></ul></div>
+        <div class="skill-group"><h3>Technical</h3><ul><li>Basic HTML, CSS, and JavaScript</li><li>Flutter</li><li>Django</li><li>Next.js <span class="muted">— currently learning</span></li><li>GitHub</li><li>Visual Studio Code</li><li>Canva</li><li>Microsoft Office and Google Workspace</li></ul></div>
+        <div class="skill-group"><h3>Personal strengths</h3><ul><li>Problem-solving</li><li>Communication</li><li>Teamwork and collaboration</li><li>Creativity</li><li>Willingness to learn</li></ul></div>
+      </div>
+    </section>
+
+    <section id="experience" class="section container split-section" aria-labelledby="experience-title">
+      <div class="section-label"><span>04</span><h2 id="experience-title">Experience</h2></div>
+      <div class="section-content timeline">
+        <article class="timeline-item"><div class="timeline-meta"><span>2025</span><span>Academic experience</span></div><div><h3>Mobile App Pitching <span>— School Activity</span></h3><ul><li>Conducted research to support the development and presentation of a mobile application idea.</li><li>Participated in presenting a proposed mobile app solution.</li></ul></div></article>
+        <article class="timeline-item"><div class="timeline-meta"><span>2026</span><span>Academic experience</span></div><div><h3>Mindanao Conference of Information Technology Students (MCITS) <span>— Poster Presentation</span></h3><ul><li>Participated in a poster-related activity at the Mindanao Conference of Information Technology Students.</li></ul></div></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section container split-section" aria-labelledby="projects-title">
+      <div class="section-label"><span>05</span><h2 id="projects-title">Projects</h2></div>
+      <div class="section-content project-list">
+        <article class="project-card"><img class="project-image" src="assets/shoewise.png" alt="ShoeWise mobile app products screen"><div class="project-number">01</div><div><h3>ShoeWise App</h3><p>A mobile application that helps users find and manage shoe recommendations based on their preferences and needs.</p><p class="tech"><strong>Technologies</strong> Flutter · Dart · Firebase</p><a class="project-link" href="https://github.com/isaiahjairomartinez-00457/ShoeWise" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project-card"><img class="project-image" src="assets/school-violation-monitoring.png" alt="School Violation Monitoring System dashboard screen"><div class="project-number">02</div><div><h3>School Violation Monitoring System</h3><p>A system for recording, tracking, and managing student violations efficiently.</p><p class="tech"><strong>Technologies</strong> Flutter · Dart · Supabase</p></div></article>
+        <article class="project-card"><img class="project-image" src="assets/pos-kiosk.png" alt="MANG INASAL-inspired self-service POS kiosk menu screen"><div class="project-number">03</div><div><h3>MANG INASAL-inspired Self-Service POS Kiosk</h3><p>Developed for the IT415 Practical Examination, this touchscreen self-service POS kiosk supports an interactive ordering experience.</p><p class="tech"><strong>Technologies</strong> Next.js App Router · React · TypeScript · Tailwind CSS · JSON file storage</p><a class="project-link" href="https://github.com/isaiahjairomartinez-00457/it415-pos-kiosk-Practical-Exam" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project-card"><img class="project-image" src="assets/native-flora.png" alt="Native Flora Detection and Management System admin login screen"><div class="project-number">04</div><div><h3>Native Flora Detection and Management System</h3><p>A capstone project using computer vision, GPS, geoanalytics, and cloud-based data management to help identify, document, map, and monitor selected native flora species in Talaingod, Davao del Norte.</p><p class="tech"><strong>Technologies</strong> Flutter · Dart · PHP · Firebase Authentication</p><a class="project-link" href="https://github.com/isaiahjairomartinez-00457/Capstone-project" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a></div></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container contact-section" aria-labelledby="contact-title">
+      <div class="section-label"><span>06</span><h2 id="contact-title">Contact</h2></div>
+      <div class="section-content contact-content"><p class="lead">Have a question or an opportunity to discuss?</p><p>I’m open to connecting and continuing to learn through meaningful conversations and projects.</p><div class="contact-links"><a href="mailto:Isaiahjairomartinez203@gmail.com"><span>Email</span>Isaiahjairomartinez203@gmail.com</a><a href="tel:+639061879138"><span>Phone</span>0906 187 9138</a><a href="https://github.com/isaiahjairomartinez-00457" target="_blank" rel="noopener noreferrer"><span>GitHub</span>isaiahjairomartinez-00457 <span aria-hidden="true">↗</span></a><p><span>Location</span>Tubod, Carmen, Davao del Norte, Philippines</p></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-wrap"><p>Isaiah Jairo Martinez</p><p>© <span id="current-year"></span> · Built with HTML, CSS &amp; JavaScript</p><a href="#top" aria-label="Back to top">Back to top ↑</a></div></footer>
+</body>
+</html>
